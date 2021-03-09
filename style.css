@@ -1,0 +1,121 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+}
+body {
+    background-image: url("image/thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+   }
+ul {
+    position: absolute;
+    display: inline;
+    right: 0px;
+}
+ul li {
+    position: relative;
+    display: inline;
+    margin-right: 100px;
+    top: 25px;
+}
+a {
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: relative;
+    width: 960px;
+    left: 50%;
+    margin-left: -480px;
+    padding-bottom: 50px;
+    background-color: rgba(96, 96, 96,0.6);
+    border-bottom: #eee 2px solid;
+}
+header h1 {
+    position: relative;
+    display: inline;
+    font-size: xx-large;
+    font-weight: bold;
+    top: 25px;
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    position: relative;
+    left: 50%;
+    width: 960px;
+    margin-left: -480px;
+}
+form {
+    position: relative;
+    background-color: rgba(96, 96, 96,0.6);
+    width: 480px;
+    
+    top: 120px;
+    border-radius: 8px;
+}
+table {
+    position: relative;
+    border: 1px #eee solid;
+    display: block;
+    margin: 0 auto;
+    width: 545px;
+    top: 10px;
+    margin-bottom: 20px;
+}
+#container {
+    background-color: rgba(96, 96, 96,0.6);
+    width: 580px;
+    position: relative;
+    left: 485px;
+    border-radius: 8px;
+    
+}
+p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+table th {
+    border: 1px #eee solid;
+    font-family: 'Roboto', sans-serif;
+}
+table td {
+    border: 1px #eee solid;
+    font-family: 'Roboto', sans-serif;
+}
+legend {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+label {
+    font-family: 'Roboto', sans-serif;
+}
+#button {
+    color: black;
+    position: relative;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 10px;
+}
+#one {
+    position: absolute;
+    right: 0px;
+    width: 150px;
+}
+#two {
+    position: absolute;
+    right: 0px;
+    width: 150px;
+}
+#three {
+    position: absolute;
+    right: 8px;
+    width: 150px;
+    color: black;
+}
+option {
+    color: black;
+}
